@@ -9,8 +9,11 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class LoginRegisterActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginRegisterBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivityLoginRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
     }
 }
