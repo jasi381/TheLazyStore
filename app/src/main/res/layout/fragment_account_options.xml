@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.LoginRegisterActivity"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/blury_background"
+        android:scaleType="centerCrop"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            app:lottie_rawRes="@raw/book_search"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/AppName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/AppName"
+            style="@style/h3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="6dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/sf_pro_display"
+            android:textColor="@color/black"
+            android:layout_marginTop="120dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/app_name"/>
+
+        <TextView
+            android:id="@+id/tvRightAddressForShopping"
+            style="@style/h4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="52dp"
+            android:text="@string/the_right_place_n_for_shopping_n_notes_and_books"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/AppName" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/it_is_now_very_easy_to_reach_the_nbest_quality_with_reasonable_nprice_of_books_and_notes_n_available_in_the_market"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@id/tvRightAddressForShopping"
+            app:layout_constraintStart_toStartOf="@id/tvRightAddressForShopping"
+            app:layout_constraintTop_toBottomOf="@id/tvRightAddressForShopping" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonRegisterAccountOptions"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:text="Register"
+            android:padding="8dp"
+            android:backgroundTint="#00FFFF"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            app:strokeWidth="1dp"
+            app:cornerRadius="8dp"
+            app:strokeColor="@color/black"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonLoginAccountOptions"
+            android:backgroundTint="@color/white"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@id/buttonRegisterAccountOptions"
+            android:text="Login"
+            android:textSize="18sp"
+            android:padding="8dp"
+            app:cornerRadius="8dp"
+            android:textColor="@color/black"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
+

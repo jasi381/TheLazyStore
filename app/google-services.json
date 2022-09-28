@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1087160634351",
+    "project_id": "the-lazy-store",
+    "storage_bucket": "the-lazy-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087160634351:android:23d119d3210209154bc41a",
+        "android_client_info": {
+          "package_name": "com.jasmeet.thelazystore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087160634351-n6inccr3i5rhp1tisllitn8omoi0qi1d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jasmeet.thelazystore",
+            "certificate_hash": "9166fe4786451b8a6077e38518e71385be4e4089"
+          }
+        },
+        {
+          "client_id": "1087160634351-btc3ntkgk6o9qp9vol0mu974d6rhk133.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYw5zXLRl0NbqMqDwUSZtxQzSq6ysgTfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087160634351-btc3ntkgk6o9qp9vol0mu974d6rhk133.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">The Lazy Store</string>
+    <string name="it_is_now_very_easy_to_reach_the_nbest_quality_with_reasonable_nprice_of_books_and_notes_n_available_in_the_market">It is now very easy to reach the\nbest quality with reasonable \nprice of books and notes \n available in the market</string>
+    <string name="the_right_place_n_for_shopping_n_notes_and_books">The Right Place\n for shopping\n Notes and books</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? Register</string>
+    <string name="let_s_login">Let\'s Login</string>
+    <string name="let_s_register">Let\'s Register</string>
+    <string name="first_name">First Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="last_name">Last Name</string>
+    <string name="do_you_have_an_account_login">Do you have an account? Login</string>
+    <string name="google">Google</string>
+    <string name="register">Register</string>
+    <string name="facebook">Facebook</string>
+    <string name="forgot_password">Forgot Password</string>
+</resources>
